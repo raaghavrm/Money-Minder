@@ -1,0 +1,39 @@
+{
+  "expo": {
+    "name": "Money Minder",
+    "slug": "money-minder",
+    "owner": "raaghav",
+    "plugins": ["@react-native-google-signin/google-signin"],
+    "version": "3.2.0",
+    "orientation": "portrait",
+    "icon": "./src/assets/appIcons/MoneyMinderIcon.png",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "image": "./src/assets/appIcons/MoneyMinderSplash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./src/assets/appIcons/MoneyMinderIcon2.png",
+        "backgroundColor": "#ffffff"
+      },
+      "googleServicesFile": "./google-services.json",
+      "package": "com.raaghav.moneyminder"
+    },
+    "web": {
+      "favicon": "./src/assets/appIcons/MoneyMinderIcon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "172b5e63-7a74-42e2-b46e-94ba934bbb7a"
+      }
+    }
+  }
+}
